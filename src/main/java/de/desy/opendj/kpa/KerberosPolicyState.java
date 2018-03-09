@@ -45,6 +45,8 @@ import javax.security.auth.Subject;
 import javax.security.auth.login.*;
 import java.util.*;
 
+import static de.desy.opendj.kpa.OpendjKpaMessages.KPA_LOGIN_FAILED;
+import static de.desy.opendj.kpa.OpendjKpaMessages.KPA_PLUGIN_FAILED;
 import static org.opends.messages.ExtensionMessages.ERR_LDAP_PTA_MAPPING_ATTRIBUTE_NOT_FOUND;
 
 /**
